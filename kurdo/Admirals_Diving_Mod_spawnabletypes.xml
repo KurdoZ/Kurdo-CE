@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<!-- start of RedFalcon Watercraft spawnabletypes -->
+	<type name="ADM_Divingtank">
+		<attachments chance="1.00">
+			<item name="ADM_Flippers" chance="0.40"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ADM_Snorkel" chance="0.40"/>
+		</attachments>
+	</type>
+</spawnabletypes>

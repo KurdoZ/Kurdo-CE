@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<type name="dbo_raptor">
+		<cargo chance="0.00">
+			<item name="Paper" chance="0.50" />
+			<item name="Rag" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="dbo_raptorB">
+		<cargo chance="0.00">
+			<item name="Paper" chance="0.50" />
+			<item name="Rag" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="dbo_idrex">
+		<cargo chance="0.00">
+			<item name="Paper" chance="0.50" />
+			<item name="Rag" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="dbo_trex">
+		<cargo chance="0.00">
+			<item name="Paper" chance="0.50" />
+			<item name="Rag" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="dbo_tricero">
+		<cargo chance="0.00">
+			<item name="Paper" chance="0.50" />
+			<item name="Rag" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="dbo_raptorblue">
+		<cargo chance="0.00">
+			<item name="Paper" chance="0.50" />
+			<item name="Rag" chance="0.50" />
+		</cargo>
+	</type>
+</spawnabletypes>
+	
+	

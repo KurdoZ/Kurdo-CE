@@ -1,25 +1,33 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8"?>
 <types>
 	<!-- REV Improvised Bow -->
 	<type name="Rev_Bow">
 		<lifetime>7200</lifetime>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 	</type>
 	<type name="Rev_Ammo_ImprovisedArrow">
 		<lifetime>3600</lifetime>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 	</type>
-	<!-- You can use this vanilla item to spawn chicken feather in the world as loot, to enable bow and arrow crafting recipes: <type name="ChickenFeather"> <nominal>60</nominal> <lifetime>3600</lifetime> <restock>60</restock> <min>55</min> <quantmin>20</quantmin> <quantmax>80</quantmax> <cost>100</cost> <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/> <category name="tools"/> <tag name="industrial"/> <tag name="farm"/> <tag name="civilian"/>  <tag name="hunting"/> </type> -->
+	<!--
+You can use this vanilla item to spawn chicken feather in the world as loot, to enable bow and arrow crafting recipes:
+	<type name="ChickenFeather">
+        <nominal>60</nominal>
+        <lifetime>3600</lifetime>
+        <restock>60</restock>
+        <min>55</min>
+        <quantmin>20</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+    </type>
+-->
 	<!-- REV Recurve Bow -->
 	<type name="Rev_BowRecurve">
 		<nominal>30</nominal>
@@ -29,14 +37,9 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="hunting"/>
+		<usage name="Hunting"/>
 	</type>
 	<type name="Rev_Ammo_Arrow">
 		<nominal>40</nominal>
@@ -46,14 +49,10 @@
 		<quantmin>100</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="hunting"/>
+		<tag name="shelves"/>
+		<usage name="Hunting"/>
 	</type>
 	<!-- REV Crossbow Bow -->
 	<type name="Rev_Crossbow">
@@ -64,14 +63,9 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="hunting"/>
+		<usage name="Hunting"/>
 	</type>
 	<type name="Rev_Ammo_Bolt">
 		<nominal>30</nominal>
@@ -81,14 +75,10 @@
 		<quantmin>100</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="hunting"/>
+		<tag name="shelves"/>
+		<usage name="Hunting"/>
 	</type>
 	<!-- REV Taser -->
 	<type name="Rev_Taser_Yellow">
@@ -99,14 +89,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="Police"/>
+		<tag name="shelves"/>
+		<usage name="Police"/>
 	</type>
 	<type name="Rev_Taser_Black">
 		<nominal>10</nominal>
@@ -116,14 +102,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="Police"/>
+		<tag name="shelves"/>
+		<usage name="Police"/>
 	</type>
 	<type name="Rev_Ammo_Taser">
 		<nominal>30</nominal>
@@ -133,14 +115,10 @@
 		<quantmin>100</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="Police"/>
+		<tag name="shelves"/>
+		<usage name="Police"/>
 	</type>
 	<!-- REV Walter WA 2000 Sniper Rifle -->
 	<type name="Rev_WA2000">
@@ -151,17 +129,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="hunting"/>
+		<usage name="Hunting"/>
+		<value name="Tier3"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<type name="Rev_Mag_WA2000_5rnd">
 		<nominal>15</nominal>
@@ -171,15 +143,11 @@
 		<quantmin>10</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="hunting"/>
-		<value name="Tier45"/>
+		<usage name="Hunting"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Ammo_300WinMagnum">
 		<nominal>30</nominal>
@@ -189,17 +157,12 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="hunting"/>
+		<tag name="shelves"/>
+		<usage name="Hunting"/>
+		<value name="Tier3"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<!-- REV Beretta ARX 160 -->
 	<type name="Rev_ARX160">
@@ -210,17 +173,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<type name="Rev_Mag_ARX160_30rnd">
 		<nominal>8</nominal>
@@ -230,17 +186,10 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<!-- REV Tac21 Modern Sniper Rifle -->
 	<type name="Rev_Tac21">
@@ -251,17 +200,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<type name="Rev_Mag_Tac21_5rnd">
 		<nominal>8</nominal>
@@ -271,17 +213,10 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<type name="Rev_Tac21_Bttstck">
 		<nominal>4</nominal>
@@ -291,19 +226,96 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
-	<!-- REV HoneyBadger 556x45 ammo <type name="Rev_HoneyBadger_Black"> <nominal>2</nominal> <lifetime>7200</lifetime> <restock>60</restock> <min>1</min> <quantmin>-1</quantmin> <quantmax>-1</quantmax> <cost>100</cost> <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/> <category name="weapons"/> <tag name="military"/>  <value name="Tier4"/> </type> <type name="Rev_HoneyBadger_Green"> <nominal>2</nominal> <lifetime>7200</lifetime> <restock>60</restock> <min>1</min> <quantmin>-1</quantmin> <quantmax>-1</quantmax> <cost>100</cost> <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/> <category name="weapons"/> <tag name="military"/>  <value name="Tier4"/> </type> <type name="Rev_HoneyBadger_GreenCamo"> <nominal>2</nominal> <lifetime>7200</lifetime> <restock>60</restock> <min>1</min> <quantmin>-1</quantmin> <quantmax>-1</quantmax> <cost>100</cost> <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/> <category name="weapons"/> <tag name="military"/>  <value name="Tier4"/> </type> <type name="Rev_HoneyBadger_Tan"> <nominal>2</nominal> <lifetime>7200</lifetime> <restock>60</restock> <min>1</min> <quantmin>-1</quantmin> <quantmax>-1</quantmax> <cost>100</cost> <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/> <category name="weapons"/> <tag name="military"/>  <value name="Tier4"/> </type> <type name="Rev_HoneyBadger_TanCamo"> <nominal>2</nominal> <lifetime>7200</lifetime> <restock>60</restock> <min>1</min> <quantmin>-1</quantmin> <quantmax>-1</quantmax> <cost>100</cost> <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/> <category name="weapons"/> <tag name="military"/>  <value name="Tier4"/> </type> <type name="Mag_CMAG_20Rnd_Black"> <nominal>6</nominal> <lifetime>3600</lifetime> <restock>60</restock> <min>3</min> <quantmin>10</quantmin> <quantmax>30</quantmax> <cost>100</cost> <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/> <category name="weapons"/> <tag name="military"/>  <value name="Tier4"/> </type> -->
+	<!-- REV HoneyBadger 556x45 ammo
+    <type name="Rev_HoneyBadger_Black">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>60</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="Rev_HoneyBadger_Green">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>60</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="Rev_HoneyBadger_GreenCamo">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>60</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="Rev_HoneyBadger_Tan">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>60</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="Rev_HoneyBadger_TanCamo">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>60</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+	<type name="Mag_CMAG_20Rnd_Black">
+        <nominal>6</nominal>
+        <lifetime>3600</lifetime>
+        <restock>60</restock>
+        <min>3</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type> -->
 	<!-- REV HoneyBadger 300 BLACKOUT ammo -->
 	<type name="Rev_HoneyBadger300BO_Black">
 		<nominal>2</nominal>
@@ -313,17 +325,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<type name="Rev_HoneyBadger300BO_Green">
 		<nominal>1</nominal>
@@ -333,17 +339,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<type name="Rev_HoneyBadger300BO_GreenCamo">
 		<nominal>1</nominal>
@@ -353,17 +353,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<type name="Rev_HoneyBadger300BO_Tan">
 		<nominal>1</nominal>
@@ -373,17 +367,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<type name="Rev_HoneyBadger300BO_TanCamo">
 		<nominal>1</nominal>
@@ -393,17 +381,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<type name="Rev_Mag_HoneyBadger_30rnd">
 		<nominal>4</nominal>
@@ -413,17 +395,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<type name="Rev_Mag_HoneyBadger_50rnd">
 		<nominal>2</nominal>
@@ -433,17 +409,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<type name="Rev_Mag_HoneyBadger_100rnd">
 		<nominal>2</nominal>
@@ -453,17 +423,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<type name="Rev_Ammo_300BO">
 		<nominal>8</nominal>
@@ -473,17 +437,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<!-- REV M200 -->
 	<!-- M200 also work with ArmaM200Cheytac mod & MassManyItems mod Cheytac attachements and ammo is compatible -->
@@ -495,17 +453,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<type name="Rev_M200_Black">
 		<nominal>1</nominal>
@@ -515,17 +466,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<type name="Rev_Mag_M200_7rnd">
 		<nominal>4</nominal>
@@ -535,17 +479,10 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier4"/>
-		<value name="Tier5"/>
-		<value name="Tier6"/>
 	</type>
 	<type name="Rev_M200_Suppressor">
 		<nominal>1</nominal>
@@ -555,15 +492,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Ammo_408">
 		<nominal>4</nominal>
@@ -573,15 +505,10 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV R700 -->
 	<type name="Rev_R700">
@@ -592,15 +519,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_R700_7rnd">
 		<nominal>6</nominal>
@@ -610,15 +533,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_R700_Suppressor">
 		<nominal>2</nominal>
@@ -628,15 +547,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Ammo_338">
 		<nominal>6</nominal>
@@ -646,15 +560,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV AK15 762x39 -->
 	<type name="Rev_AK15">
@@ -665,15 +575,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="Rev_AKU15">
 		<nominal>8</nominal>
@@ -683,15 +589,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_AK15_30rnd">
 		<nominal>8</nominal>
@@ -701,15 +603,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<!-- REV AK12 545x39 -->
 	<type name="Rev_AK12">
@@ -720,15 +618,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="Rev_AKU12">
 		<nominal>10</nominal>
@@ -738,15 +632,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="Rev_Mag_AK12_30rnd">
 		<nominal>10</nominal>
@@ -756,15 +646,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<!-- REV AK19 556x45 -->
 	<type name="Rev_AK19">
@@ -775,15 +661,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="Rev_AKU19">
 		<nominal>10</nominal>
@@ -793,15 +675,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="Rev_Mag_AK19_30rnd">
 		<nominal>10</nominal>
@@ -811,15 +689,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<!-- REV AK Bttstck -->
 	<type name="Rev_AK_Bttstck">
@@ -830,14 +704,9 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 	</type>
 	<!-- REV RPK 762x39 -->
 	<type name="Rev_RPK16_762">
@@ -848,15 +717,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_RPK16_75rnd_762">
 		<nominal>4</nominal>
@@ -866,15 +731,11 @@
 		<quantmin>10</quantmin>
 		<quantmax>40</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV RPK 545x39 -->
 	<type name="Rev_RPK16">
@@ -885,15 +746,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="Rev_Mag_RPK16_96rnd">
 		<nominal>4</nominal>
@@ -903,15 +760,11 @@
 		<quantmin>10</quantmin>
 		<quantmax>40</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<!-- REV RPK 556x45 -->
 	<type name="Rev_RPK16_556">
@@ -922,14 +775,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="Rev_Mag_RPK16_96rnd_556">
 		<nominal>2</nominal>
@@ -939,14 +788,10 @@
 		<quantmin>10</quantmin>
 		<quantmax>40</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
 	</type>
 	<!-- REV AR15 -->
 	<type name="Rev_AR15">
@@ -957,15 +802,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV ACR -->
 	<type name="Rev_ACR_Black">
@@ -976,15 +817,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_ACR_Tan">
 		<nominal>2</nominal>
@@ -994,15 +831,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_ACR_30rnd">
 		<nominal>4</nominal>
@@ -1012,15 +845,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Ammo_68SPC">
 		<nominal>4</nominal>
@@ -1030,15 +859,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV M110 -->
 	<type name="Rev_M110_Tan">
@@ -1049,15 +874,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_M110_Black">
 		<nominal>1</nominal>
@@ -1067,15 +887,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_M110_10rnd">
 		<nominal>4</nominal>
@@ -1085,15 +900,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_M110_20rnd">
 		<nominal>4</nominal>
@@ -1103,15 +914,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV M134 MINIGUN -->
 	<type name="Rev_M134">
@@ -1122,15 +929,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_M134_250rnd">
 		<nominal>1</nominal>
@@ -1140,15 +942,10 @@
 		<quantmin>5</quantmin>
 		<quantmax>20</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV BEOWULF  -->
 	<type name="Rev_Beowulf">
@@ -1159,15 +956,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_Beowulf_10rnd">
 		<nominal>2</nominal>
@@ -1177,15 +969,11 @@
 		<quantmin>5</quantmin>
 		<quantmax>20</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Ammo_50BW">
 		<nominal>4</nominal>
@@ -1195,15 +983,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV SRSA2  -->
 	<type name="Rev_SRSA2">
@@ -1214,15 +998,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_SRSA2_10rnd">
 		<nominal>2</nominal>
@@ -1232,15 +1012,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV SPAS-12  -->
 	<type name="Rev_Spas12">
@@ -1251,14 +1027,9 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="Police"/>
+		<usage name="Police"/>
 	</type>
 	<!-- REV SR-25  -->
 	<type name="Rev_SR25_Tan">
@@ -1269,15 +1040,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_SR25_Black">
 		<nominal>1</nominal>
@@ -1287,15 +1054,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_SR25_10rnd">
 		<nominal>4</nominal>
@@ -1305,15 +1068,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_SR25_20rnd">
 		<nominal>2</nominal>
@@ -1323,15 +1082,10 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV ACR 17-S .308  -->
 	<type name="Rev_ACR17">
@@ -1342,15 +1096,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_ACR17_30rnd">
 		<nominal>4</nominal>
@@ -1360,15 +1110,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV MG3  -->
 	<type name="Rev_MG3">
@@ -1379,15 +1125,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_MG3_75rnd">
 		<nominal>2</nominal>
@@ -1397,15 +1139,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV FN FAL Tactial  -->
 	<type name="Rev_FALTactical">
@@ -1416,15 +1154,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV M1 Garand  -->
 	<type name="Rev_M1Garand">
@@ -1435,16 +1169,13 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="civilian"/>
-		<tag name="hunting"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<usage name="Hunting"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<!-- REV prototype HT-76/A  -->
 	<type name="Rev_HT76">
@@ -1455,15 +1186,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_HT76_30Rnd">
 		<nominal>2</nominal>
@@ -1473,15 +1199,10 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV HK417  -->
 	<type name="Rev_HK417">
@@ -1492,15 +1213,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_HK417_20rnd">
 		<nominal>2</nominal>
@@ -1510,15 +1226,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV GoldenFang repeater -->
 	<type name="JebsGuns_Ammo_45_70">
@@ -1529,14 +1241,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="farm"/>
+		<tag name="shelves"/>
+		<usage name="Farm"/>
+		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 	</type>
@@ -1548,16 +1257,13 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="farm"/>
+		<usage name="Farm"/>
+		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<!-- REV M1A Sneaks (uses 45-70 ammo) -->
 	<type name="JebsGuns_M1A_Sneaks">
@@ -1568,16 +1274,13 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="farm"/>
+		<usage name="Farm"/>
+		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="JebsGuns_Mag_M1A_20rnd_45_70">
 		<nominal>40</nominal>
@@ -1587,14 +1290,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="farm"/>
+		<tag name="shelves"/>
+		<usage name="Farm"/>
+		<usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 	</type>
@@ -1607,14 +1307,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="JebsGuns_MBR_Tan">
 		<nominal>2</nominal>
@@ -1624,14 +1320,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
 	</type>
 	<!-- REV L85A2 -->
 	<type name="JebsGuns_L85A2_Black">
@@ -1642,14 +1334,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="JebsGuns_Mag_L85A2_30rnd">
 		<nominal>4</nominal>
@@ -1659,15 +1347,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<!-- REV Kriss Vector -->
 	<type name="JebsGuns_KrissVector_Black">
@@ -1678,15 +1362,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="JebsGuns_Mag_KrissVector_30rnd">
 		<nominal>4</nominal>
@@ -1696,14 +1376,9 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 	</type>
@@ -1715,15 +1390,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV VSSK  -->
 	<type name="JebsGuns_VSSK">
@@ -1734,15 +1405,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="JebsGuns_Mag_VSSK_5rnd">
 		<nominal>2</nominal>
@@ -1752,15 +1418,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV L85A2 -->
 	<type name="REV_FAMAS">
@@ -1771,14 +1433,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
 	</type>
 	<type name="REV_Mag_FAMAS_30rnd">
 		<nominal>4</nominal>
@@ -1788,15 +1446,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
+		<usage name="Military"/>
 		<value name="Tier2"/>
+		<value name="Tier3"/>
 	</type>
 	<!-- REV THOR M96  -->
 	<type name="Rev_M96">
@@ -1807,15 +1461,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_M96_5rnd">
 		<nominal>2</nominal>
@@ -1825,15 +1474,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV MDRX -->
 	<type name="JebsGuns_MDRX_Tan">
@@ -1844,15 +1489,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="JebsGuns_Mag_MDRX_30rnd">
 		<nominal>4</nominal>
@@ -1862,15 +1503,11 @@
 		<quantmin>25</quantmin>
 		<quantmax>75</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="JebsGuns_Mag_MDRX_50rnd">
 		<nominal>1</nominal>
@@ -1880,15 +1517,11 @@
 		<quantmin>25</quantmin>
 		<quantmax>75</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV CDX50  -->
 	<type name="Rev_CDX50">
@@ -1899,15 +1532,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_CDX50_5rnd">
 		<nominal>2</nominal>
@@ -1917,15 +1545,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Ammo_50BMG">
 		<nominal>8</nominal>
@@ -1935,15 +1559,11 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<!-- REV M2010  -->
 	<type name="Rev_M2010_Tan">
@@ -1954,15 +1574,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Rev_Mag_M2010_10rnd">
 		<nominal>2</nominal>
@@ -1972,14 +1587,10 @@
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0"
-		       count_in_hoarder="0"
-		       count_in_map="1"
-		       count_in_player="0"
-		       crafted="0"
-		       deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<tag name="military"/>
-		<value name="Tier45"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
-</types>
+</types> 
