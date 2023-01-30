@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<type name="vg7_scorpion">
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_radiator" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_wheel_front" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_wheel_rear" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_wheel_front" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_wheel_rear" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_drybag" chance="0.25"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_helmet" chance="0.25"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_jacket" chance="0.25"/>
+		</attachments>
+	</type>
+	<type name="vg7_scorpion_easyrider">
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_radiator" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_wheel_front" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_wheel_rear" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_wheel_front" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_wheel_rear" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_drybag" chance="0.25"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_helmet" chance="0.25"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_jacket" chance="0.25"/>
+		</attachments>
+	</type>
+</spawnabletypes>
